@@ -1,0 +1,25 @@
+#home {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info {
+    width: 100%;
+}
+
+@media (min-width:767px) {
+
+}
+
+@media (min-width:1024px) {
+    #home {
+    padding: 0 100px;
+    }
+
+    .info {
+        width: 50%;
+    }
+}

@@ -1,0 +1,62 @@
+#empresa {
+    background-color: white;
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.nossos_servicos {
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.equipe {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+@media (min-width:767px) {
+
+}
+
+@media (min-width:1024px) {
+    #empresa {
+        padding: 0 100px;
+    }
+
+    .info {
+        width: 50%;
+    }
+
+    .equipe {
+        padding: 0 100px;
+    }
+
+    .equipe_container {
+        padding: 20px 0;
+    }
+
+    .nossos_servicos {
+        padding: 0 100px;
+    }
+
+    .embla {
+        width: 730px;
+    }
+    
+    .embla__viewport {
+        
+        overflow: hidden;
+    }
+    
+    .embla__slide {
+        flex: 0 0 33.333%;
+    }
+
+    .slide.is-active {
+        transform: scale(1.1);
+    }
+
+}
