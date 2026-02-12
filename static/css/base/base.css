@@ -25,3 +25,14 @@ ul {
     --text_color: #444;
     --color_emphasis: #7130E6;
 }
+
+@media (min-width:1024px) {
+    
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .text_info {
+        font-size: 1.5rem;
+    }
+}
