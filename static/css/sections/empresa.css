@@ -6,12 +6,6 @@
     align-items: center;
 }
 
-.nossos_servicos {
-    padding: 0 10px;
-    display: flex;
-    flex-flow: row wrap;
-}
-
 .equipe {
     margin-top: 20px;
     padding: 0 10px;
@@ -38,9 +32,7 @@
         padding: 20px 0;
     }
 
-    .nossos_servicos {
-        padding: 0 100px;
-    }
+    
 
     .embla {
         width: 730px;
@@ -57,6 +49,10 @@
 
     .slide.is-active {
         transform: scale(1.1);
+    }
+
+    .info.services {
+        width: 50%;
     }
 
 }

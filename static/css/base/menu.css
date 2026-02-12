@@ -117,14 +117,15 @@ main {
     border-radius: 35px;
     width: 200px;
     height: 40px;
-    background-color: #6bbf59;
+    background: linear-gradient(0deg,rgba(8, 160, 69, 1) 0%, rgba(107, 191, 89, 1) 100%);
     color: white;
 
   }
 
   .consultoria:hover {
-    background-color: #08a045;
-    color: #fff;
+    border: 2px solid #08a045;
+    color: #08a045;
+    background: none;
   }
 
   .icon {

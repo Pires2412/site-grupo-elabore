@@ -108,27 +108,7 @@
 
     </section>
 
-    <section class="nossos_servicos">
-      <article class="info">
-        <div class="container_text">
-          <div class="indicative">
-            <img src="static/image/lightbulb_icon.svg" alt="solutions icon" class="indicative_img" />
-            <p class="indicative_text">Nossas soluções</p>
-          </div>
-          <h3 class="title">
-            A <em class="text_emph">solução </em>solução para posicionar sua empresa com autoridade.
-          </h3>
-          <p class="text_info">
-            Você escolhe o objetivo - nós desenhamos a estratégia e executamos o plano com estética, performance e
-            conversão.
-          </p>
-        </div>
-      </article>
 
-      <article class="info">
-        <div class="services"></div>
-      </article>
-    </section>
 
     <section class="equipe">
       <div class="container_text">
@@ -204,35 +184,104 @@
       </article>
     </section>
 
-    <section id="servico"></section>
-    <section id="contato"></section>
+    </section>
 
-    <script type="text/javascript">
-      const wrapperNode = document.querySelector(".embla");
-      const viewportNode = wrapperNode.querySelector(".embla__viewport");
-      const prevButtonNode = wrapperNode.querySelector(".embla__prev");
-      const nextButtonNode = wrapperNode.querySelector(".embla__next");
+    <section id="servico">
+      <article class="info">
+        <div class="container_text">
+          <div class="indicative">
+            <img src="static/image/lightbulb_icon.svg" alt="solutions icon" class="indicative_img" />
+            <p class="indicative_text">Nossas soluções</p>
+          </div>
+          <h3 class="title">
+            A <em class="text_emph">solução </em>solução para posicionar sua empresa com autoridade.
+          </h3>
+          <p class="text_info">
+            Você escolhe o objetivo - nós desenhamos a estratégia e executamos o plano com estética, performance e
+            conversão.
+          </p>
+        </div>
+      </article>
 
-      const emblaApi = EmblaCarousel(
-        viewportNode,
-        {
-          loop: true,
-        },
-        [EmblaCarouselAutoplay()],
-      );
+      <article class="info services">
+        <div class="services-box">
+          <div class="box-dropdown">
+            <div class="box-dropdown-title">
+              <p class="dropdown-title-text">Social Media</p>
+              <p class="dropdown-title-icon">&darr;</p>
+            </div>
+            <div class="box-dropdown-text">Gestão estratégica das suas redes sociais para fortalecer sua marca e gerar
+              conexão com o público.
+              Conteúdo planejado para atrair, engajar e transformar seguidores em clientes.</div>
+          </div>
+          <div class="box-dropdown">
+            <div class="box-dropdown-title">
+              <p class="dropdown-title-text">Tráfego Pago</p>
+              <p class="dropdown-title-icon">&darr;</p>
+            </div>
+            <div class="box-dropdown-text">Campanhas inteligentes para atrair o público certo e acelerar seus
+              resultados.
+              Investimento otimizado para gerar leads, vendas e crescimento previsível.</div>
+          </div>
 
-      prevButtonNode.addEventListener(
-        "click",
-        () => emblaApi.scrollPrev(),
-        false,
-      );
-      nextButtonNode.addEventListener(
-        "click",
-        () => emblaApi.scrollNext(),
-        false,
-      );
-      emblaApi.plugins().autoplay?.play();
-    </script>
+          <div class="box-dropdown">
+            <div class="box-dropdown-title">
+              <p class="dropdown-title-text">Design</p>
+              <p class="dropdown-title-icon">&darr;</p>
+            </div>
+            <div class="box-dropdown-text">Identidade visual e materiais que comunicam profissionalismo e autoridade.
+              Design estratégico que posiciona sua marca e gera impacto imediato.</div>
+          </div>
+
+          <div class="box-dropdown">
+            <div class="box-dropdown-title">
+              <p class="dropdown-title-text">Criação de Sites</p>
+              <p class="dropdown-title-icon">&darr;</p>
+            </div>
+            <div class="box-dropdown-text">Sites modernos, rápidos e responsivos, pensados para converter visitantes em
+              clientes.
+              Estrutura estratégica, performance e experiência que fortalecem sua presença digital.</div>
+          </div>
+
+        </div>
+      </article>
+      <article class="service-cta">
+        <a href="">
+          <div class="btn-d">Solicite um orçamento</div>
+        </a>
+      </article>
+
+
+
+      <section id="servico"></section>
+      <section id="contato"></section>
+
+      <script type="text/javascript">
+        const wrapperNode = document.querySelector(".embla");
+        const viewportNode = wrapperNode.querySelector(".embla__viewport");
+        const prevButtonNode = wrapperNode.querySelector(".embla__prev");
+        const nextButtonNode = wrapperNode.querySelector(".embla__next");
+
+        const emblaApi = EmblaCarousel(
+          viewportNode,
+          {
+            loop: true,
+          },
+          [EmblaCarouselAutoplay()],
+        );
+
+        prevButtonNode.addEventListener(
+          "click",
+          () => emblaApi.scrollPrev(),
+          false,
+        );
+        nextButtonNode.addEventListener(
+          "click",
+          () => emblaApi.scrollNext(),
+          false,
+        );
+        emblaApi.plugins().autoplay?.play();
+      </script>
   </main>
 </body>
 

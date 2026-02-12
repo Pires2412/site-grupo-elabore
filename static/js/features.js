@@ -15,3 +15,11 @@ closeMenuIcon.addEventListener('click', toggle_menu)
 
 btnMenuMobile.addEventListener('click', toggle_menu)
 
+const boxDropdown = document.querySelectorAll('.box-dropdown')
+
+boxDropdown.forEach(el => {
+    el.addEventListener('click', ()=>{
+        const textBox = el.querySelector('.box-dropdown-text')
+    textBox.classList.toggle('is_open')
+    })
+})

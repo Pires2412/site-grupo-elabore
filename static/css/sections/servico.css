@@ -1,4 +1,13 @@
 #servico {
+    padding: 0 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.service-cta {
+    width: 100%;
+    padding: 20px 10px;
+    height: auto;
 }
 
 @media (min-width:767px) {
@@ -6,5 +15,12 @@
 }
 
 @media (min-width:1024px) {
-    
+    #servico {
+        padding: 0 100px;
+        height: 100vh;
+    }
+
+    .service-cta {
+        width: 50%;
+    }
 }

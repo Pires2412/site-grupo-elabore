@@ -173,6 +173,66 @@
   font-weight: 400;
 }
 
+.info.services {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.services-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.box-dropdown {
+  width: 90%;
+  color: white;
+  border: 2px solid var(--color_emphasis);
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.box-dropdown-title {
+  width: 100%;
+  background-color: var(--color_emphasis);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  font-weight: 400;
+  height: 50px;
+  padding: 0 25px;
+  cursor: pointer;
+}
+
+.box-dropdown-text {
+  color: var(--text_color);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  font-size: 1.3rem;
+}
+
+.box-dropdown-text.is_open {
+  padding: 20px 10px;
+  height: auto;
+}
+
+.service-details {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color_emphasis);
+  width: 80%;
+  height: 40px;
+  border-radius: 35px;
+}
+
 .archivo_name {
   font-family: "Archivo", sans-serif;
   font-size: 1.3rem;
