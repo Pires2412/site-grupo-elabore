@@ -9,7 +9,7 @@
 .nossos_servicos {
     padding: 0 10px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
 .equipe {
