@@ -11,6 +11,16 @@
     padding: 0 10px;
 }
 
+.service-cta {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.btn-d.cta-service {
+    width: 100%;
+}
+
 @media (min-width:767px) {
 
 }
@@ -47,9 +57,9 @@
         flex: 0 0 33.333%;
     }
 
-    .slide.is-active {
+    /* .slide.is-active {
         transform: scale(1.1);
-    }
+    } */
 
     .info.services {
         width: 50%;

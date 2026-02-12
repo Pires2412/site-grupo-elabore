@@ -10,6 +10,10 @@
     height: auto;
 }
 
+.service-cta.btn.desktop {
+    display: none;
+}
+
 @media (min-width:767px) {
 
 }
@@ -21,6 +25,12 @@
     }
 
     .service-cta {
-        width: 20%;
+        display: none;
     }
+
+    .service-cta.btn.desktop {
+        display: block;
+        width: 60%;
+    }
+    
 }
