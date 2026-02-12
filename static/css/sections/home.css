@@ -17,13 +17,36 @@
 @media (min-width:1024px) {
     #home {
     padding: 0 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
     }
 
-    .info {
-        width: 50%;
+    .info.home{
+        width: 100%;
+
+    }
+
+    .container_text {
+        width: 80%;
     }
 
     .tag-box {
         width: 70%;
     }
+
+    .info.post {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: start;
+        width: 60%;
+        height: auto;
+        padding: 0;
+    }
+
+    .imagepost {
+        width: 100%;
+    }
+    
 }

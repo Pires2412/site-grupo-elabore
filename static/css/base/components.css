@@ -50,7 +50,7 @@
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Archivo", sans-serif;
   font-weight: 600;
   color: var(--primary_color);
@@ -75,7 +75,7 @@
   padding: 0 15px;
   height: 40px;
   border-radius: 10px;
-  background-color: var(--color_emphasis);
+  background: linear-gradient(0deg,rgba(96, 41, 196, 1) 0%, rgba(113, 48, 230, 1) 50%, rgba(151, 93, 255, 1) 100%);
   color: white;
   font-size: 1.1rem;
   display: flex;
@@ -102,7 +102,7 @@
 .tag {
   margin-top: 20px;
   width: auto;
-  padding: 0 10px;
+  padding: 0 5px;
   height: 30px;
   border-radius: 35px;
   color: var(--text_color);
@@ -113,8 +113,8 @@
   justify-content: space-evenly;
 }
 
-.ml {
-  margin-left:10px
+.mr {
+  margin-right: 5px;
 }
 
 .tag-box {
@@ -143,6 +143,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 90%;
+  margin-left: 10px;
 }
 
 .imagepost {
