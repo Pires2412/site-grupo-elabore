@@ -17,6 +17,7 @@
   <script src="static/js/features.js" defer="defer"></script>
   <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
   <script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+  <script src="static/js/redirecting.js" defer="defer"></script>
 </head>
 
 <body>
@@ -265,7 +266,8 @@
           </div>
           <h5 class="title txtwhite">Contato</h5>
           <p class="text_info txtwhite">Entre em contato com a gente e tiraremos todas suas dúvidas</p>
-
+        </div>
+        <div class="container-form">
           <form class="form-contact" action="">
             <div class="fields">
               <label for="name">Nome</label>
@@ -274,13 +276,15 @@
 
             <div class="fields">
               <label for="number">Celular</label>
-              <input type="text" name="number" id="">
+              <input type="text" name="phone" id="">
             </div>
 
             <input class="btn-d submit" type="submit" value="Enviar">
+            <p class="warning">Ao clicar, você será redirecionado para o WhatsApp com a mensagem preenchida.</p>
           </form>
-
         </div>
+
+
       </article>
     </section>
 
@@ -308,6 +312,15 @@
 
       </article>
     </section>
+
+    <footer>
+      <p class="txtwhite">© 2026 Grupo Elabore. Todos os direitos reservados.</p>
+      <div class="container-social-media">
+        <a href="https://www.facebook.com/profile.php?id=100085967854649" target="_blank"><img src="static/image/facebook_icon.svg" alt="facebook icon"></a>
+        <a href="https://www.instagram.com/grupoelabore_?igsh=bHpjZG5nNDQ0ZzY4" target="_blank"><img src="static/image/instagram_icon.svg" alt="instagram icon"></a>
+        <a href="https://wa.me/5522988730115" target="_blank"><img src="static/image/whatsapp_icon.svg" alt=""></a>
+      </div>
+    </footer>
 
     <script type="text/javascript">
       const wrapperNode = document.querySelector(".embla");

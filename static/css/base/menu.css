@@ -68,13 +68,6 @@ header {
   display: none;
 }
 
-#home,
-#empresa,
-#servico,
-#contato {
-  scroll-margin-top: 60px;
-}
-
 .logo {
   width: 100px;
 }

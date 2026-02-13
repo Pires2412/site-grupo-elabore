@@ -12,6 +12,7 @@
 
 .info.maps {
     padding: 0 10px;
+    padding-bottom: 30px;
     margin-top: 30px;
 }
 
@@ -47,6 +48,21 @@
         width: 50%;
     }
 
+    .contact {
+        height: 60vh;
+    }
+
+    .info.contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .container-form {
+        width: 60%;
+        align-self: center;
+    }
+
 }
 
 @media (min-width:1024px) {
@@ -71,5 +87,14 @@
 
     .map {
         width: 50%;
+    }
+
+    .contact {
+        height: 100vh;
+    }
+
+    .container-form {
+        width: 50%;
+        align-self: center;
     }
 }

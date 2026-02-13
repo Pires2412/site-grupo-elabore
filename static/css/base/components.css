@@ -316,7 +316,7 @@
 
 .form-contact {
   margin-top: 30px;
-  width: 100%;
+  width: 95%;
   background-color: white;
   border-radius: 25px;
   display: flex;
@@ -340,4 +340,18 @@ input {
   height: 40px;
   margin-top: 10px;
   border: 1px solid lightgray;
+}
+
+.container-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.warning {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #444;
 }

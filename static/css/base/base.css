@@ -26,6 +26,14 @@ ul {
     --color_emphasis: #7130E6;
 }
 
+#home,
+#empresa,
+#servico,
+#contato,
+#endereco {
+  scroll-margin-top: 60px;
+}
+
 @media (min-width:1024px) {
     
     .title {
@@ -42,5 +50,13 @@ ul {
     
     .box-dropdown-title {
         height: 40px;
+    }
+
+    #home,
+    #empresa,
+    #servico,
+    #contato,
+    #endereco {
+    scroll-margin-top: 80px;
     }
 }
