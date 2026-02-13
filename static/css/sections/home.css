@@ -12,6 +12,14 @@
 
 @media (min-width:767px) {
 
+        .container_text.home {
+            width: 75%;
+        }
+
+        .mr {
+            margin-right: 15px;
+        }
+
 }
 
 @media (min-width:1024px) {

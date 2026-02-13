@@ -30,10 +30,6 @@
         flex: 0 0 33.333%;
     }
 
-    .service-cta {
-        width: 50%;
-    }
-
     .service-cta.btn.mobile {
         width: 50%;
     }
@@ -70,11 +66,7 @@
     .embla__slide {
         flex: 0 0 33.333%;
     }
-
-    /* .slide.is-active {
-        transform: scale(1.1);
-    } */
-
+    
     .info.services {
         width: 50%;
     }

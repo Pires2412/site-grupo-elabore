@@ -1,42 +1,75 @@
 #contato {
     width: 100%;
     background-color: white;
+}
+
+.contact {
     padding: 0 10px;
+    background-color: var(--color_emphasis);
+    width: 100%;
+    height: 100vh;
 }
 
 .info.maps {
-    width: 100%;
+    padding: 0 10px;
     margin-top: 30px;
 }
 
-.map-elabore {
+.container-maps {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.map {
+    width: 100%;
+}
+
+.info.contact > .container_text > .indicative {
+    margin: 30px 0;
+}
+
+.title.txtwhite {
+    margin-top: 0px;
+}
+
+.submit {
     width: 100%;
 }
 
 @media (min-width:767px) {
 
-    .info.maps {
-        width: 100%;
+    .container-maps {
         display: flex;
-        flex-flow: row wrap;
         justify-content: center;
     }
 
-    .map-elabore {
+    .map {
         width: 50%;
     }
 
 }
 
 @media (min-width:1024px) {
+    #contato {
+        width: 100%;
+        margin: 100px 0;
+    }
+
+    .info.contact {
+        padding: 0 100px;
+    }
+
+
     .info.maps {
         width: 100%;
+    }
+
+    .container-maps {
         display: flex;
-        flex-flow: row wrap;
         justify-content: center;
     }
 
-    .map-elabore {
+    .map {
         width: 50%;
     }
 }
