@@ -35,4 +35,12 @@ ul {
     .text_info {
         font-size: 1.5rem;
     }
+
+    .btn-d {
+        height: 40px;
+    }
+    
+    .box-dropdown-title {
+        height: 40px;
+    }
 }

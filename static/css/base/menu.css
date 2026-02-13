@@ -84,6 +84,15 @@ main {
 }
 
 @media (min-width: 767px) {
+
+  .menu_mobile {
+    right: 0;
+  }
+
+  .menu_mobile.is_open {
+    width: 50%;
+  }
+
 }
 
 @media (min-width: 1024px) {

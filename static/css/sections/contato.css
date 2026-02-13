@@ -1,5 +1,16 @@
 #contato {
-    
+    width: 100%;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.info.maps {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.map-elabore {
+    width: 100%;
 }
 
 @media (min-width:767px) {
@@ -7,5 +18,14 @@
 }
 
 @media (min-width:1024px) {
-    
+    .info.maps {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .map-elabore {
+        width: 50%;
+    }
 }
