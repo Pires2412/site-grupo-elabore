@@ -22,7 +22,21 @@
 }
 
 @media (min-width:767px) {
+    .embla {
+        width: 600px;
+    }
 
+    .embla__slide {
+        flex: 0 0 33.333%;
+    }
+
+    .service-cta {
+        width: 50%;
+    }
+
+    .service-cta.btn.mobile {
+        width: 50%;
+    }
 }
 
 @media (min-width:1024px) {

@@ -15,6 +15,17 @@
 
 @media (min-width:767px) {
 
+    .info.maps {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .map-elabore {
+        width: 50%;
+    }
+
 }
 
 @media (min-width:1024px) {
