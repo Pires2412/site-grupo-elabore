@@ -1,6 +1,7 @@
 @import url(base/base.css);
 @import url(base/components.css);
 @import url(base/menu.css);
+@import url(base/effects.css);
 
 @import url(sections/home.css);
 @import url(sections/empresa.css);

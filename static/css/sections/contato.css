@@ -37,6 +37,11 @@
     width: 100%;
 }
 
+input[type='text'] {
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
 @media (min-width:767px) {
 
     .container-maps {

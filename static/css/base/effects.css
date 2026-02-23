@@ -1,0 +1,10 @@
+.animated {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all ease-out 0.8s;
+}
+
+.moved {
+    opacity: 1;
+    transform: translateY(0);
+}
